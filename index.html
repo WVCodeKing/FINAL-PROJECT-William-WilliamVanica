@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+
+  <!--   p5.js lib -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <!--     bootstrap style -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!--   your style -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+   
+  </header>
+  <main role="main" class="container">
+    <h1>Super Bowl Ratings</h1>
+
+
+    <!--     D3 VISUAL -->
+    <h3>The Super Bowl</h3>
+    <p>  From the very inception of the United States, a tapestry of traditions has been woven, and jubilant holidays have been exalted. While the populace's ruminations on public holidays often gravitate toward illustrious occasions such as Thanksgiving, Christmas, and Easter, a singular sport emerged to encapsulate the indomitable essence of the American spirit so exquisitely that its championship, the Super Bowl, metamorphosed into an irreplaceable American holiday. Its genesis can be traced to the magnificent moment when Vince Lombardi masterfully guided his team to an inaugural triumph in the Super Bowl. Lombardi's unyielding resolve to triumph spread with an unrelenting fervor, permeating the hearts of Americans throughout the nation and imbuing them with an unwavering adoration for the quintessence of the gridiron and an unparalleled competitive ardor.</p>
+
+<p>  Since that seminal epoch, fervent devotees of football have found themselves ensnared in a web of perpetual discord, with each faction's ardent adherents swearing undying oaths to employ any means necessary to witness the calamitous downfall of their adversaries. From the advent of the season's commencement to its climactic conclusion, partisans of rivaling teams harbor an all-encompassing abhorrence for one another. However, for a fleeting moment, once a year, on a hallowed day, these ardent enthusiasts set aside the shackles of their acrimony, embracing a harmonious gathering that reverberates with the joyous jubilation befitting the celebration of the grandiloquent football season—a convocation fondly recognized as the Super Bowl party.</p>
+
+<p>Amidst this ephemeral respite, households bedecked in resplendent Super Bowl regalia bear testimony to the momentous occasion, whilst culinary masterpieces of unparalleled scrumptiousness take center stage in resplendent kitchens. Thus, the Super Bowl, an apotheosis among annual grandiloquent events, illuminates television screens, casting an iridescent glow that captivates the senses and compels multitudes to partake in its mesmerizing spectacle.
+</p>
+
+  <h3>TV Ratings</h3>
+    <p>Ratings serve as a statistical measure that reveals the percentage of a specific demographic engaged in watching a particular TV program. For instance, a TV rating of 40 indicates that 40% of the targeted demographic is tuned in to the said program. Regarding the Super Bowl ratings, I regret to admit that my search for information regarding the specific demographic utilized for calculation yielded no definitive answers. These ratings, however, are determined by Nielsen, a renowned company specializing in media measurement and analytics. They employ their expertise to assess audience viewership, offering valuable insights into the preferences and habits of viewers for industry professionals and enthusiasts alike.</p>
+    
+     <p>Click points on the line to watch a clip from that year's Super Bowl</p>
+    <h3>Super Bowl TV Ratings Over Time</h3>
+    <div id="myChart" class="svg-container"></div>
+    <p>          </p>
+
+    <!--     P5 VISUAL -->
+    <div id="myP5-container">
+      <div id="myP5"></div>
+    </div>
+     <p>Year: <span id="yearHTML"></span></p> 
+     <p>Super Bowl: <span id="SBHTML"></span></p>
+     <p>Rating:<span id="RHTML"></span></p>
+  </main>
+
+  <!--   SCRIPTS -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <!--   your scripts -->
+  <script src="p5_script.js"></script>
+    <!-- <script src="p5_makeThumbs.js"></script> -->
+
+  <script src="d3_script.js"></script>
+
+  <!--   bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
